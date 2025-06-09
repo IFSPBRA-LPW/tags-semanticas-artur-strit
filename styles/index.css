@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Fonte básica e reset */
+* {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color:rgba(248, 249, 250, 0);
+  color: #333;
+}
+
+body{
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+main{
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Cabeçalho */
+.header-container {
+  background-color:rgba(1, 238, 255, 0.25);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.link{
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover{
+  color: red;
+}
+
+.link:visited{
+  color: black;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.subtitle{
+  margin: 20px 0px;
+}
+
+.list-ativ{
+  margin: 20px;
+}
+
+.citacoes{
+  background-color:rgb(10, 88, 233);
+  border-left: 5px solid #0077cc;
+  margin-botton:20px;
+  padding: 10px;
+  font-styles: italic;
+}
+
+footer{
+  color: white;
+  text-align: center;
+  background-color: #343a40;
+  padding: 20px;
+  magin-top: 40px;
+}
+
+footer h3{
+  font-weight: 600;
+  margin: 10px
+}
